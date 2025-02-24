@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="nayigee.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header class="myHeader">
+        <a href="" class="myLoggo"><span class="myLoggo-span">Nkulu</span>leko</a>
+        
+            <nav class="navSection" id="navSection">
+                <a href="#home">Home</a>
+                <a href="#about_me">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                
+            </nav>
+
+
+            <i class="fa-solid fa-gear" onclick="settingsMenuToggle()"></i>
+            <div class="my-mode-change" id="changeMode">
+                <button class="toggle-button" id="toggle-mode">Mode</button>
+            </div>
+            
+            <div class="theIcons"  id="menuIcon">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+           
+            
+            
+            
+    </header>
+
+
+    <!--========================The content on the main section=========================-->
+    <main class="div-test">
+            
+
+
+        <!--*********************The container of all the info inside my home section--> 
+        <section class="section-for-home">
+            <div class="contain-inside-home-section" id="home">
+
+                <div class="div-pic-my-name">
+
+                     <!--my profile picture-->
+                     <div class="for-my-home-pic">
+                        <img src="profile img/IMG-20230817-WA0013.jpg" alt="profile pic" class="home-picture">
+                     </div>
+                     
+
+                     <div class="home-data-info">
+                         <h1 class="my-name-on-home">Nkulu<span class="span22-name">leko</span> <span class="span22-name">Fak</span>ude</h1>
+                         <h3 class="my-occupation"><span class="span22-name">Web</span> Developer...</h3>
+                         
+                         <div class="my-social-connect">
+                            <button class="social-buttons instagram"><a href="https://instagram.com/iamnkululeko_far" target="_blank"><i class="fa-brands fa-instagram"></i></a></button>
+                            <button class="social-buttons linkedin"><a href="https://www.linkedin.com/in/nkululeko-fakude-78014026a/"><i class="fa-brands fa-linkedin"></i></a></button>
+                            <button class="social-buttons gitHub"><a href="https://github.com/Nkululeko376" target="_blank"><i class="fa-brands fa-github"></i></a></button>
+                         </div>
+                     </div>
+                </div>
+                   
+                <!--============scroller==========-->
+                <!--++++++
+                    <a href="#about_me" class="scroll-button">
+                        <div class="scroll-bar-button">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+
+                        <span class="home-scroll-text">My Projects</span>
+                    </a>
+                -->
+                    
+            </div>
+    </section>
+
+
+    <br><br><br><br><br>
+
+<!--*********************The container of all the info inside my about section-->
+    <section class="my-about-mainsection" id="about_me">
+
+        <!--about me heading-->
+        <h2 class="about-me-heading">My <span class="aboutme-heading-span">Info</span></h2>
+
+
+        <!--about me info and the my image for layout-->
+        <div class="aboutme-all">
+            <div class="for-my-home-pic">
+                <img src="profile img/IMG-20230817-WA0013.jpg" alt="profile pic" class="home-picture">
+             </div>
+             <div class="my-about-me-info">
+                <h3 class="the-about-data first-line">
+                    <span class="first-line-span">A self-taught Web Developer with a BSc in Physics Degree.</span>
+                     I have a strong passion for building responsive
+                     and user-friendly websites.
+                </h3>
+
+                <div class="to-hide-text">
+                    <h3 class="second-line">
+                        I love solving problems, learning new technologies, and bringing
+                         creative ideas to life through code. <span class="first-line-span">Let's build something amazing together!..</span>
+                    </h3>
+                </div>
+                <button class="read-about-hidden-text download-cv-btn" onclick="clickToHide(this)">Read More</button>
+                <button class="download-cv-btn">Download CV</button>
+             </div>
+        </div>
+
+
+        <!--=====================THIS DIV CONTAINER CONTAINS MY SKILLS=====================-->
+        <div class="myskills-div">
+            <h3 class="my-skills-title">Skills</h3>
+
+            <div class="all-icons-container hide-skills-div">
+                <!-- HTML -->
+                <div class="small-div-icons">
+                    <i class="fab fa-html5"></i>
+                    <p class="html-icon-p">HTML</p>
+                </div>
+                <!-- CSS -->
+                <div class="small-div-icons">
+                    <i class="fab fa-css3-alt"></i>
+                    <p class="css-icon-p">CSS</p>
+                </div>
+                <!-- JavaScript -->
+                <div class="small-div-icons">
+                    <i class="fab fa-js"></i>
+                    <p class="js-icon-p">JavaScript</p>
+                </div>
+                <!-- React -->
+                <div class="small-div-icons">
+                    <i class="fab fa-react"></i>
+                    <p class="react-icon-p">React</p>
+                </div>
+                <!-- Git -->
+                <div class="small-div-icons">
+                    <img src="profile img/git-logo-11609362364wwhuzvtx5h.png" alt="" class="git-icon-img">
+                    <p class="git-icon-p">Git</p>
+                </div>
+                <!-- GitHub -->
+                <div class="small-div-icons">
+                    <i class="fab fa-github github-i"></i>
+                    <p class="github-icon-p">GitHub</p>
+                </div>
+                <!-- Bootstrap -->
+                <div class="small-div-icons">
+                    <i class="fab fa-bootstrap"></i>
+                    <p class="bootstrap-icon-p">Bootstrap</p>
+                </div>
+            </div>
+
+
+            <button class="hide-skill-btn" onclick="toHideSkills(this)"><i class="fa-solid fa-circle-up"></i></button>
+        </div>
+
+    </section>
+
+    <br><br><br>
+<!--*********************The container of all the info inside my projects section-->
+
+
+        <section class="my-projects-mainsection" id="projects">
+            <h2 class="projects-heading">My Projects</h2>
+        <section class="projects">
+            
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <div class="the-project-1">
+                            <p>Project 1</p>
+                        </div>
+                    </div>
+
+
+                    <div class="slide">
+                        <div class="the-project-2">
+                            <p>Project 2</p>
+                        </div>
+                    </div>
+
+
+                    <div class="slide">
+                        <div class="the-project-3">
+                            <p>Project 3</p>
+                        </div>
+                    </div>
+
+
+                    <div class="slide">
+                        <div class="the-project-4">
+                            <p>Project 4</p>
+                        </div>
+                    </div>
+
+
+                    <div class="slide">
+                        <div class="the-project-5">
+                            <p>Project 5</p>
+                        </div>
+                    </div>
+
+
+                    <div class="slide">
+                        <div class="the-project-6">
+                            <p>Project 6</p>
+                        </div>
+                    </div>
+
+
+                    <div class="slide">
+                        <div class="the-project-7">
+                            <p>Project 7</p>
+                        </div>
+                        
+                    </div>
+
+                </div>
+    
+                <!--Navigation Buttons -->
+                <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </section>
+    </section>
+
+
+<!--*********************The container of all the info inside my contacts section-->
+<section class="contact-me-mainsection" >
+    <h2>Conta<span>ct Me!</span></h2>
+    <form action="" id="contact" method="post" class="contact-form">
+        <input type="text" id="enterName" class="your-name" placeholder="Enter Your Name"><br>
+        <input type="email" name="" id="enterEmail" class="your-email" placeholder="Enter Your Email"><br>
+        <textarea name="" id="enterMessage" rows="10" class="the-textarea" placeholder="Type Message"></textarea><br>
+        <button id="submitMessage" class="send-masg-btn">Send Message</button>
+    </form>
+</section>
+
+</main>
+
+
+<footer>
+
+</footer>
+
+
+
+    <script src="interactive.js"></script>
+
+</body>
+</html>

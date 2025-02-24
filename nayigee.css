@@ -1,0 +1,254 @@
+
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 1500px;
+    padding-top: 95px;
+    scroll-behavior: smooth;
+    /*this style is for the dark and light mode*/
+    background-color: rgb(255, 255, 255);
+    z-index: 5;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+body.dark-mode {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+}
+
+:root {
+    --background-light: #ffffff;
+    --text-light: #000000;
+    --background-dark: #121212;
+    --text-dark: #ffffff;
+}
+
+
+
+
+.myHeader {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    
+    
+}
+
+.myLoggo {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: monospace;
+    padding: 0px 2px;
+}
+
+
+
+
+
+
+.myLoggo-span {
+    font-size: 1.5rem;
+    font-family: Verdana;
+    color: cyan;
+}
+
+.myLoggo:hover {
+    color: cyan;
+    
+}
+
+.myLoggo-span:hover {
+    color: white;
+}
+
+
+.fa-gear {
+    font-size: 1.6rem;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    right: 70px;
+   top: 8; 
+   padding: 1px 2px; 
+}
+
+.my-mode-change {
+    position: absolute;
+    right: 7%;
+    top: 68%;
+    background-color: rgba(0, 0, 0, 0.361);
+    transition: max-height 0.7s;
+    overflow: hidden;
+    max-height: 0px;
+    border-radius: 5px;
+    
+}
+
+.settings-menu-height-mode {
+    max-height: 50px;
+}
+
+.toggle-button {
+    padding: 6px;
+    border: none;
+    background-color: cyan;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: monospace;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.toggle-button:active {
+    background-color: black;
+}
+
+.fa-gear:hover {
+    border-bottom: 2px solid cyan;
+    border-top: 2px solid black;
+    border-right: 2px solid cyan;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.fa-bars {
+    font-size: 1.6rem;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.navSection a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 1.3rem;
+    font-family: monospace;
+    font-weight: 700
+    
+}
+
+.navSection a:hover {
+    border-top: 2px solid cyan;
+    border-bottom: 2px solid white;
+}
+
+.theIcons {
+    width: ;
+    
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    position: fixed;
+    right: 15px;
+   display: none;
+   
+    
+}
+
+.theIcons:hover {
+    border-bottom: 2px solid white;
+    border-top: 2px solid cyan;
+    border-left: 2px solid cyan;
+    border-right: 2px solid black;
+    box-shadow: 2px 2px 5px grey;
+}
+
+
+
+
+
+
+@media (max-width: 700px){
+    body {
+        
+    }
+
+
+    .myHeader {
+        height: 30px;
+        
+    }
+
+
+
+
+    .theIcons {
+        display: block;
+    }
+
+    .fa-gear {
+        font-size: 1.5rem;
+        right: 5;
+    }
+
+    .fa-bars {
+        font-size: 1.5rem;
+    }
+
+    .navSection {
+        /*display: none;*/
+        position: fixed;
+        margin-top: 48px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        border-bottom: 2px solid gray;
+        display: none;
+        background: rgba(91, 117, 117, 0.628);
+    }
+
+    .active {
+        display: block;
+    }
+
+
+   .navSection a {
+        margin-right: 8px;
+        font-size: 1.0rem;
+        font-family: monospace;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 5px;
+         padding: 5px;
+    }
+
+    .navSection a:hover {
+        border-top: none;
+        border-bottom: none;
+        background-color: rgba(6, 4, 4, 0.381);
+        color: cyan;
+        
+    }
+    
+
+
+    .myLoggo {
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-left: -200px;
+        padding: 0px 2px;
+    }
+
+    .myLoggo-span {
+        font-size: 1.4rem;
+       
+    }
+
+    .myLoggo:hover {
+       
+    }
+}

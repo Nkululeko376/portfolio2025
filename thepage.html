@@ -22,20 +22,47 @@
                 
             </nav>
 
-
-            <i class="fa-solid fa-gear" onclick="settingsMenuToggle()"></i>
-            <div class="my-mode-change" id="changeMode">
-                <button class="toggle-button" id="toggle-mode">Mode</button>
-            </div>
             
             <div class="theIcons"  id="menuIcon">
               <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="vertical-dots-container" onclick="colorDesign()">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
             </div>
            
             
             
             
     </header>
+
+    <section class="section-setting-b">
+        <h4>Background Settings</h4>
+        <hr>
+
+        <div class="setting-gear-mode-change">
+            <p><span>Mode-</span>Lightspan <span>/</span> Dark</p>
+            <i class="fa-solid fa-gear" onclick="settingsMenuToggle()"></i>
+            <div class="my-mode-change" id="changeMode">
+                <button class="toggle-button" id="toggle-mode">Mode</button>
+            </div>
+        </div>
+        
+        <hr>
+        <hr>
+        
+
+
+        <div class="color-change">
+            <p>Design Colors</p>
+            <hr>
+            <div class="design-color-change">
+                <button class="color-design-btn design-yellow"></button>
+                <button class="color-design-btn design-red"></button>
+                <button class="color-design-btn design-navy"></button>
+            </div>
+        </div>
+    </section>
 
 
     <!--========================The content on the main section=========================-->
@@ -106,11 +133,11 @@
                 <div class="to-hide-text">
                     <h3 class="second-line">
                         I love solving problems, learning new technologies, and bringing
-                         creative ideas to life through code. <span class="first-line-span">Let's build something amazing together!..</span>
+                         creative ideas to life through code. <span class="first-line-span first-line-span2">Let's build something amazing together!..</span>
                     </h3>
                 </div>
                 <button class="read-about-hidden-text download-cv-btn" onclick="clickToHide(this)">Read More</button>
-                <button class="download-cv-btn">Download CV</button>
+                <button class="download-cv-btn download-cv-btn2">Download CV</button>
              </div>
         </div>
 
@@ -243,7 +270,7 @@
     </form>
 </section>
 
-</main>
+    </main>
 
 
 <footer>

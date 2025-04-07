@@ -76,6 +76,7 @@
     font-family: monospace;
 }
 
+
 .span22-name {
     font-style: initial;
     color: rgb(0, 0, 0);
@@ -150,6 +151,9 @@
 .aboutme-heading-span {
     color: cyan;
 }
+.aboutme-heading-span-yellow {
+    color: yellow;
+}
 
 .first-line {
     margin-bottom: 0px;
@@ -159,6 +163,7 @@
 .first-line-span {
     color: cyan;
 }
+
 
 .second-line {
     margin-top: 5px;
@@ -209,6 +214,7 @@
     font-weight: 900;
     font-family: monospace;
 }
+
 
 
 .my-skills-title {
@@ -266,6 +272,7 @@
     cursor: pointer;
     color: white;
 }
+
 
 
 
@@ -522,6 +529,7 @@ button:hover {
     background: rgba(0, 255, 255, 0.377);
 }
 
+
 .your-name, .your-email {
     padding: 10px 15px;
     width: 90%;
@@ -559,6 +567,163 @@ button:hover {
     font-size: 19px;
     color: cyan;
     font-weight: 700;
+}
+
+
+
+.setting-gear-mode-change {
+    padding: 10px;
+    position: relative;
+
+}
+
+
+.vertical-dots-container {
+    padding: 3px;
+    color: #ffffff;
+    display: flex;
+    font-size: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-top: 13px;
+    margin-right: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.vertical-dots-container:hover {
+    border-right: 2px solid cyan;
+    border-bottom: 2px solid cyan;
+    color: cyan;
+    font-size: 23px;
+}
+
+.setting-gear-mode-change p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.color-change {
+    padding: 5px;
+}
+
+.design-color-change {
+    
+}
+
+.color-design-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.color-design-btn:hover {
+    width: 30px;
+    height: 30px;
+}
+.color-design-btn:active {
+    width: 26px;
+    height: 26px;
+}
+
+.design-yellow {
+    background-color: yellow;
+}
+.design-yellow:hover {
+    background-color: hsl(60, 92%, 64%);
+}
+
+.yellow-shadow {
+    box-shadow: 5px 5px 8px yellow !important;
+}
+.yellow-border {
+    border: 5px solid yellow;
+}
+.social-button-yellow-border{
+    border: 2px solid yellow;
+}
+
+.my-loggo-span-yellow {
+    color: yellow;
+}
+.my-name-on-home-yellow {
+    color: yellow;
+}
+.my-occupation-yellow {
+    color: yellow;
+}
+.my-about-me-info-yellow {
+    box-shadow: 8px 5px 8px yellow, -9px -9px 5px yellow;
+}
+.first-line-span-yellow {
+    color: yellow;
+}
+.download-cv-btn-yellow {
+    border: 3px solid yellow;
+}
+.download-cv-btn-yellow:hover {
+    background-color: yellow;
+}
+.hide-skill-btn-yellow {
+    background-color: yellow;
+}
+.contact-form-yellow {
+    background: yellowgreen;
+    border: 5px solid yellow;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.design-red {
+    background-color: hsl(0, 93%, 57%);
+}
+.design-red:hover {
+    background-color: red;
+}
+
+.design-navy {
+    background-color: hsla(240, 93%, 29%, 0.868);
+}
+.design-navy:hover {
+    background-color: navy;
+}
+
+.section-setting-b {
+    width: 250px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-top: 56px;
+    padding: 10px;
+    color: white;
+    border: 5px solid cyan;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: none;
+}
+
+.setting-gear-mode-change p span {
+    font-weight: 700;
+    color: cyan;
+}
+
+.popup-setting .section-setting-b {
+   display: block;
 }
 
 
@@ -613,6 +778,8 @@ button:hover {
     }
 
 
+
+
     .my-social-connect {
         border: 5px solid cyan;
         border-radius: 40px;
@@ -635,6 +802,7 @@ button:hover {
         
     }
 
+   
 
 
     .my-about-mainsection{
@@ -685,6 +853,7 @@ button:hover {
         cursor: pointer;
         border-radius: 5px;
     }
+   
 
 
     .to-hide-text {

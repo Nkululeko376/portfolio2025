@@ -92,3 +92,61 @@ function updateSlider() {
     const offset = -index * 100;
     slider.style.transform = `translateX(${offset}%)`;
 }
+
+
+function colorDesign(){
+ document.querySelector('body').classList.toggle('popup-setting');
+    
+}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const button = document.querySelector('.design-yellow');
+    const target = document.querySelector('.home-data-info');
+    const socials = document.querySelector('.my-social-connect');
+    const socialButton1 = document.querySelector('.instagram');
+    const socialButton2 = document.querySelector('.linkedin');
+    const socialButton3 = document.querySelector('.gitHub');
+    const myLoggoSpan = document.querySelector('.myLoggo-span');
+    const myNameHome = document.querySelector('.my-name-on-home');
+    const myOccupation = document.querySelector('.my-occupation');
+    const aboutMeH1Span = document.querySelector('.aboutme-heading-span');
+    const myAboutMeDiv1 = document.querySelector('.my-about-me-info');
+    const aboutFirstLine = document.querySelector('.first-line-span');
+    const hideDownloadBtn = document.querySelector('.download-cv-btn');
+    const hideDownloadBtn2 = document.querySelector('.download-cv-btn2');
+    const aboutFirstLine2 = document.querySelector('.first-line-span2');
+    const hideSkillsBtn = document.querySelector('.hide-skill-btn');
+    const contactFormBox = document.querySelector('.contact-form');
+
+
+
+
+
+    button.addEventListener('click', () => {
+        target.classList.toggle('yellow-shadow');
+        socials.classList.toggle('yellow-border');
+        socialButton1.classList.toggle('social-button-yellow-border');
+        socialButton2.classList.toggle('social-button-yellow-border');
+        socialButton3.classList.toggle('social-button-yellow-border');
+        myLoggoSpan.classList.toggle('my-loggo-span-yellow');
+        myNameHome.classList.toggle('my-name-on-home-yellow');
+        myOccupation.classList.toggle('my-occupation-yellow');
+        aboutMeH1Span.classList.toggle('aboutme-heading-span-yellow');
+        myAboutMeDiv1.classList.toggle('my-about-me-info-yellow');
+        aboutFirstLine.classList.toggle('first-line-span-yellow');
+        hideDownloadBtn.classList.toggle('download-cv-btn-yellow');
+        hideDownloadBtn2.classList.toggle('download-cv-btn-yellow');
+        aboutFirstLine2.classList.toggle('first-line-span-yellow');
+        hideSkillsBtn.classList.toggle('hide-skill-btn-yellow');
+        contactFormBox.classList.toggle('contact-form-yellow');
+
+
+    });
+  });
+  
+
+
+
+
+

@@ -66,10 +66,6 @@ function toHideSkills(button) {
 
 
 
-
-
-
-
 //IN THIS SECTION I WILL BE ADDING CODES FOR MY PROJECTS SECTION
 
 const slider = document.querySelector(".slider");
@@ -99,8 +95,9 @@ function colorDesign(){
     
 }
 
-
+//============Color design Yellow
 document.addEventListener('DOMContentLoaded', () => {
+
     const button = document.querySelector('.design-yellow');
     const target = document.querySelector('.home-data-info');
     const socials = document.querySelector('.my-social-connect');
@@ -118,6 +115,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const aboutFirstLine2 = document.querySelector('.first-line-span2');
     const hideSkillsBtn = document.querySelector('.hide-skill-btn');
     const contactFormBox = document.querySelector('.contact-form');
+    const inputUrName = document.querySelector('.your-name');
+    const inputUrEmail = document.querySelector('.your-email');
+    const myTextArea = document.querySelector('.the-textarea');
+    const mySubmitBtn = document.querySelector('.send-masg-btn');
+    
 
 
 
@@ -140,8 +142,111 @@ document.addEventListener('DOMContentLoaded', () => {
         aboutFirstLine2.classList.toggle('first-line-span-yellow');
         hideSkillsBtn.classList.toggle('hide-skill-btn-yellow');
         contactFormBox.classList.toggle('contact-form-yellow');
+        inputUrName.classList.toggle('your-name-yellow');
+        inputUrEmail.classList.toggle('your-email-yellow');
+        myTextArea.classList.toggle('the-textarea-yellow');
+        mySubmitBtn.classList.toggle('send-masg-btn-yellow');
+        
+
+    });
+  });
 
 
+//============Color design Red
+document.addEventListener('DOMContentLoaded', () => {
+    /////////
+    const button = document.querySelector('.design-red');
+    const target = document.querySelector('.home-data-info');
+    const socials = document.querySelector('.my-social-connect');
+    const socialButton1 = document.querySelector('.instagram');
+    const socialButton2 = document.querySelector('.linkedin');
+    const socialButton3 = document.querySelector('.gitHub');
+    const myLoggoSpan = document.querySelector('.myLoggo-span');
+    const myNameHome = document.querySelector('.my-name-on-home');
+    const myOccupation = document.querySelector('.my-occupation');
+    const aboutMeH1Span = document.querySelector('.aboutme-heading-span');
+    const myAboutMeDiv1 = document.querySelector('.my-about-me-info');
+    const aboutFirstLine = document.querySelector('.first-line-span');
+    const hideDownloadBtn = document.querySelector('.download-cv-btn');
+    const hideDownloadBtn2 = document.querySelector('.download-cv-btn2');
+    const aboutFirstLine2 = document.querySelector('.first-line-span2');
+    const hideSkillsBtn = document.querySelector('.hide-skill-btn');
+    const contactFormBox = document.querySelector('.contact-form');
+    const inputUrName = document.querySelector('.your-name');
+    const inputUrEmail = document.querySelector('.your-email');
+    const myTextArea = document.querySelector('.the-textarea');
+    const mySubmitBtn = document.querySelector('.send-masg-btn');
+///==========
+    button.addEventListener('click', () => {
+        target.classList.toggle('red-shadow');
+        socials.classList.toggle('red-border');
+        socialButton1.classList.toggle('social-button-red-border');
+        socialButton2.classList.toggle('social-button-red-border');
+        socialButton3.classList.toggle('social-button-red-border');
+        myLoggoSpan.classList.toggle('my-loggo-span-red');
+        myNameHome.classList.toggle('my-name-on-home-red');
+        myOccupation.classList.toggle('my-occupation-red');
+        aboutMeH1Span.classList.toggle('aboutme-heading-span-red');
+        myAboutMeDiv1.classList.toggle('my-about-me-info-red');
+        aboutFirstLine.classList.toggle('first-line-span-red');
+        hideDownloadBtn.classList.toggle('download-cv-btn-red');
+        hideDownloadBtn2.classList.toggle('download-cv-btn-red');
+        aboutFirstLine2.classList.toggle('first-line-span-red');
+        hideSkillsBtn.classList.toggle('hide-skill-btn-red');
+        contactFormBox.classList.toggle('contact-form-red');
+        inputUrName.classList.toggle('your-name-red');
+        inputUrEmail.classList.toggle('your-email-red');
+        myTextArea.classList.toggle('the-textarea-red');
+        mySubmitBtn.classList.toggle('send-masg-btn-red');
+    });
+  });
+
+//============Color design Navy
+document.addEventListener('DOMContentLoaded', () => {
+    /////////
+    const button = document.querySelector('.design-navy');
+    const target = document.querySelector('.home-data-info');
+    const socials = document.querySelector('.my-social-connect');
+    const socialButton1 = document.querySelector('.instagram');
+    const socialButton2 = document.querySelector('.linkedin');
+    const socialButton3 = document.querySelector('.gitHub');
+    const myLoggoSpan = document.querySelector('.myLoggo-span');
+    const myNameHome = document.querySelector('.my-name-on-home');
+    const myOccupation = document.querySelector('.my-occupation');
+    const aboutMeH1Span = document.querySelector('.aboutme-heading-span');
+    const myAboutMeDiv1 = document.querySelector('.my-about-me-info');
+    const aboutFirstLine = document.querySelector('.first-line-span');
+    const hideDownloadBtn = document.querySelector('.download-cv-btn');
+    const hideDownloadBtn2 = document.querySelector('.download-cv-btn2');
+    const aboutFirstLine2 = document.querySelector('.first-line-span2');
+    const hideSkillsBtn = document.querySelector('.hide-skill-btn');
+    const contactFormBox = document.querySelector('.contact-form');
+    const inputUrName = document.querySelector('.your-name');
+    const inputUrEmail = document.querySelector('.your-email');
+    const myTextArea = document.querySelector('.the-textarea');
+    const mySubmitBtn = document.querySelector('.send-masg-btn');
+///==========
+    button.addEventListener('click', () => {
+        target.classList.toggle('navy-shadow');
+        socials.classList.toggle('navy-border');
+        socialButton1.classList.toggle('social-button-navy-border');
+        socialButton2.classList.toggle('social-button-navy-border');
+        socialButton3.classList.toggle('social-button-navy-border');
+        myLoggoSpan.classList.toggle('my-loggo-span-navy');
+        myNameHome.classList.toggle('my-name-on-home-navy');
+        myOccupation.classList.toggle('my-occupation-navy');
+        aboutMeH1Span.classList.toggle('aboutme-heading-span-navy');
+        myAboutMeDiv1.classList.toggle('my-about-me-info-navy');
+        aboutFirstLine.classList.toggle('first-line-span-navy');
+        hideDownloadBtn.classList.toggle('download-cv-btn-navy');
+        hideDownloadBtn2.classList.toggle('download-cv-btn-navy');
+        aboutFirstLine2.classList.toggle('first-line-span-navy');
+        hideSkillsBtn.classList.toggle('hide-skill-btn-navy');
+        contactFormBox.classList.toggle('contact-form-navy');
+        inputUrName.classList.toggle('your-name-navy');
+        inputUrEmail.classList.toggle('your-email-navy');
+        myTextArea.classList.toggle('the-textarea-navy');
+        mySubmitBtn.classList.toggle('send-masg-btn-navy');
     });
   });
   

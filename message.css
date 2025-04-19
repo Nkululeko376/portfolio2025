@@ -1,0 +1,44 @@
+
+/*====================Styles for the message.html file=========*/
+body {
+    font-family: monospace;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #181818;
+  }
+
+  main {
+    border: 10px solid green;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px white, 4px 4px 4px red, -3px -3px 3px blueviolet, 5px 5px 5px yellow;
+  }
+  h1 {
+    color: #27ae60;
+    font-size: 3.2em;
+    text-shadow: 1px 1px 2px white, -1px -1px 2px red,-2px -2px 2px blue;
+  }
+
+  p {
+    font-size: 19px;
+    color: #27ae60;
+    font-weight: 900;
+    text-shadow: 0.3px 0.3px 2px white, -1px -1px 2px red, -2px -2px 2px blue;
+  }
+
+  a {
+    font-size: 19px;
+    font-weight: 600;
+    font-style: oblique;
+    text-decoration: none;
+  }
+  a:hover {
+    font-size: 22px;
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: whitesmoke;
+  }

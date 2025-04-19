@@ -264,10 +264,11 @@
 <section class="contact-me-mainsection" >
     <h2>Conta<span>ct Me!</span></h2>
     <form action="https://formsubmit.co/mtolofakude96@gmail.com" id="contact" method="POST" class="contact-form">
-        <input type="text" id="enterName" class="your-name" placeholder="Enter Your Name"><br>
-        <input type="email" name="" id="enterEmail" class="your-email" placeholder="Enter Your Email"><br>
-        <textarea name="" id="enterMessage" rows="10" class="the-textarea" placeholder="Type Message"></textarea><br>
-        <button id="submitMessage" class="send-masg-btn">Send Message</button>
+        <input type="hidden" name="_captcha" value="false">
+        <input name="name" type="text" id="enterName" class="your-name" placeholder="Enter Your Name"><br>
+        <input type="email" name="email" id="enterEmail" class="your-email" placeholder="Enter Your Email"><br>
+        <textarea name="Message" id="enterMessage" rows="10" class="the-textarea" placeholder="Type Message"></textarea><br>
+        <button type="submit" id="submitMessage" class="send-masg-btn">Send Message</button>
     </form>
 </section>
 

@@ -2,23 +2,47 @@
 /*====================Styles for the message.html file=========*/
 body {
     font-family: monospace;
-    text-align: center;
-    padding-top: 100px;
+    
+    padding-top: 150px;
+    display: flex;
     background-color: #181818;
+    justify-content: center;
+    align-items: center;
   }
 
   main {
     border: 10px solid green;
     padding: 20px;
-    width: 400px;
+    width: 70%;
     margin: auto;
     border-radius: 5px;
     box-shadow: 3px 3px 3px white, 4px 4px 4px red, -3px -3px 3px blueviolet, 5px 5px 5px yellow;
+    animation-name: scale;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    text-align: center;
   }
   h1 {
     color: #27ae60;
     font-size: 3.2em;
     text-shadow: 1px 1px 2px white, -1px -1px 2px red,-2px -2px 2px blue;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes scale{
+    100%{
+      transform: scale(1.2, 1.2);
+    }
   }
 
   p {
@@ -41,4 +65,40 @@ body {
 
   a:active {
     color: whitesmoke;
+  }
+
+
+
+
+
+
+   /* Media Queries for Mobile */
+   @media (max-width: 768px) {
+    body {
+      padding-top: 250px; /* Less padding on mobile */
+    }
+
+    h1 {
+      font-size: 2.2em; /* Smaller title on mobile */
+    }
+
+    p {
+      font-size: 1.4em; /* Smaller text on mobile */
+    }
+  }
+
+  /* Even more specific for small phones (portrait mode) */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5em; /* Even smaller title */
+    }
+
+    p {
+      font-size: 1.2em; /* Even smaller text */
+    }
+
+    /* Adjust the thank-you message width */
+    body {
+      padding-top: 90px;
+    }
   }

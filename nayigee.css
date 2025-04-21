@@ -205,19 +205,22 @@ body.dark-mode {
     .navSection {
         /*display: none;*/
         position: fixed;
-        margin-top: 48px;
+        margin-top: 45px;
         left: 0;
         right: 0;
         width: 100%;
         text-align: center;
         padding: 5px;
         border-bottom: 2px solid gray;
-        display: none;
+        transform: translate(-55%, -50%) scale(0.2, 0.2);
         background: rgba(91, 117, 117, 0.628);
+        visibility: hidden;
+        transition: transform 0.8s;
     }
 
     .active {
-        display: block;
+        transform: translate(0%, 0%) scale(1, 1);
+        visibility: visible;
     }
 
 

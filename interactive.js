@@ -7,6 +7,7 @@ const navSection = document.getElementById("navSection");
 
 menuIcon.onclick = () => {
     navSection.classList.toggle('active');
+    document.querySelector('body').classList.remove('popup-setting');
 }
 
 
@@ -92,7 +93,7 @@ function updateSlider() {
 
 function colorDesign(){
  document.querySelector('body').classList.toggle('popup-setting');
-    
+ navSection.classList.remove('active');
 }
 
 //============Color design Yellow

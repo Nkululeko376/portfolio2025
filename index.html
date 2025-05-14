@@ -3,43 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--====Title===-->
     <title>Personal portfolio</title>
+
+    <!--===Linking the external stylesheet to the Html file===-->
     <link rel="stylesheet" href="nayigee.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="footer.css">
+    <!--===Links for icons(from font awesome)====-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <!--=======/////Header section Starts//////////========-->
     <header class="myHeader">
+        <!--====my Loggo=====-->
         <a href="" class="myLoggo"><span class="myLoggo-span">Nkulu</span>leko</a>
-        
+        <!--=====Start of Navigation=====-->
             <nav class="navSection" id="navSection">
                 <a href="#home">Home</a>
                 <a href="#about_me">About Me</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
-                
             </nav>
-
-            
+        <!--=====End of Navigation section=====-->
+        
+        <!--===The menu icon container========-->
             <div class="theIcons"  id="menuIcon">
               <i class="fa-solid fa-bars"></i>
             </div>
+        <!--====End====-->
 
+        <!--=====Vertical dots container Start=======-->
             <div class="vertical-dots-container" onclick="colorDesign()">
                 <i class="fa-solid fa-ellipsis-vertical"></i>
             </div>
-           
-            
-            
-            
+        <!--=====Vertical dots container Ends=======-->
     </header>
+    <!--=======//////Header section Ends//////========-->
 
+    <!--====/////Section of color settings Start/////=====-->
     <section class="section-setting-b">
         <h4>Background Settings</h4>
         <hr>
-
         <div class="setting-gear-mode-change">
             <p><span>Mode-</span>Lightspan <span>/</span> Dark</p>
             <i class="fa-solid fa-gear" onclick="settingsMenuToggle()"></i>
@@ -47,10 +52,8 @@
                 <button class="toggle-button" id="toggle-mode">Mode</button>
             </div>
         </div>
-    
         <div class="color-change">
             <p>Design Colors</p>
-            
             <div class="design-color-change">
                 <button class="color-design-btn design-yellow"></button>
                 <button class="color-design-btn design-red"></button>
@@ -58,14 +61,12 @@
             </div>
         </div>
     </section>
-
+    <!--====/////Section of color settings Start/////=====-->
 
     <!--========================The content on the main section=========================-->
     <main class="div-test">
             
-
-
-        <!--*********************The container of all the info inside my home section--> 
+        <!--=====//////The container of all the info inside my home section///////=========--> 
         <section class="section-for-home">
             <div class="contain-inside-home-section" id="home">
 
@@ -107,13 +108,11 @@
                 -->
                     
             </div>
-    </section>
-
-
-    <br><br><br><br><br>
-
-<!--*********************The container of all the info inside my about section-->
-    <section class="my-about-mainsection" id="about_me">
+        </section>
+        <!--=====/////Ends/////==========-->
+        <br><br><br><br><br>
+        <!--========//////The container of all the info inside my about section//////======-->
+        <section class="my-about-mainsection" id="about_me">
 
         <!--about me heading-->
         <h2 class="about-me-heading">My <span class="aboutme-heading-span">Info</span></h2>
@@ -189,12 +188,10 @@
             <button class="hide-skill-btn" onclick="toHideSkills(this)"><i class="fa-solid fa-circle-up"></i></button>
         </div>
 
-    </section>
-
-    <br><br><br>
-<!--*********************The container of all the info inside my projects section-->
-
-
+        </section>
+        <!--======//////Ends/////======-->
+        <br><br><br>
+        <!--======///////The container of all the info inside my projects section////////=====-->
         <section class="my-projects-mainsection" id="projects">
             <h2 class="projects-heading">My Projects</h2>
         <section class="projects">
@@ -202,13 +199,23 @@
             <div class="slider-container">
                 <div class="slider">
                     <div class="slide">
+                        <p class="project-no-title">Men's Hoodies & Sweaters Shop</p>
+                        <div class="to-see-projects">
+                            <a href="https://nkululeko376.github.io/hoodie-sweaters/" target="_blank">Demo-site</a>
+                            <a href="https://github.com/Nkululeko376/hoodie-sweaters" target="_blank"><i class="fa-brands fa-github github-codes"></i></a>
+                        </div>
                         <div class="the-project-1">
-                            <p>Project 1</p>
+                            
                         </div>
                     </div>
 
 
                     <div class="slide">
+                        <p class="project-no-title2">Barber & Salon Service</p>
+                        <div class="to-see-projects">
+                            <a href="https://nkululeko376.github.io/barber-shop/" target="_blank">Demo-site</a>
+                            <a href="https://github.com/Nkululeko376/barber-shop" target="_blank"><i class="fa-brands fa-github github-codes"></i></a>
+                        </div>
                         <div class="the-project-2">
                             <p>Project 2</p>
                         </div>
@@ -216,36 +223,61 @@
 
 
                     <div class="slide">
+                        <p class="project-no-title2">Project 3</p>
+                        <div class="to-see-projects">
+                            <a href="">Demo-site</a>
+                            <a href=""><i class="fa-brands fa-github github-codes"></i></a>
+                        </div>
                         <div class="the-project-3">
-                            <p>Project 3</p>
+                            
                         </div>
                     </div>
 
 
                     <div class="slide">
+                        <p class="project-no-title2">Project 4</p>
+                        <div class="to-see-projects">
+                            <a href="">Demo-site</a>
+                            <a href=""><i class="fa-brands fa-github github-codes"></i></a>
+                        </div>
                         <div class="the-project-4">
-                            <p>Project 4</p>
+                            
                         </div>
                     </div>
 
 
                     <div class="slide">
+                        <p class="project-no-title2">Project 5</p>
+                        <div class="to-see-projects">
+                            <a href="">Demo-site</a>
+                            <a href=""><i class="fa-brands fa-github github-codes"></i></a>
+                        </div>
                         <div class="the-project-5">
-                            <p>Project 5</p>
+                            
                         </div>
                     </div>
 
 
                     <div class="slide">
+                        <p class="project-no-title2">Project 6</p>
+                        <div class="to-see-projects">
+                            <a href="">Demo-site</a>
+                            <a href=""><i class="fa-brands fa-github github-codes"></i></a>
+                        </div>
                         <div class="the-project-6">
-                            <p>Project 6</p>
+                            
                         </div>
                     </div>
 
 
                     <div class="slide">
+                        <p class="project-no-title2">Amazon Clone</p>
+                        <div class="to-see-projects">
+                            <a href="">Demo-site</a>
+                            <a href=""><i class="fa-brands fa-github github-codes"></i></a>
+                        </div>
                         <div class="the-project-7">
-                            <p>Project 7</p>
+                            
                         </div>
                         
                     </div>
@@ -257,39 +289,38 @@
                 <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
         </section>
-    </section>
+        </section>
+        <!--=====///////Ends///////=====-->
 
 
-<!--*********************The container of all the info inside my contacts section-->
-<section class="contact-me-mainsection" >
-    <h2>Conta<span>ct Me!</span></h2>
-    <form action="https://formsubmit.co/mtolofakude96@gmail.com" id="contact" method="POST" class="contact-form">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://nkululeko376.github.io/portfolio2025/message.html">
+        <!--=====///////The container of all the info inside my contacts section//////======-->
+        <section class="contact-me-mainsection" >
+            <h2>Conta<span>ct Me!</span></h2>
+            <form action="https://formsubmit.co/mtolofakude96@gmail.com" id="contact" method="POST" class="contact-form">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://nkululeko376.github.io/portfolio2025/message.html">
+                <input name="name" type="text" id="enterName" class="your-name" placeholder="Enter Your Name" required><br>
+                <input type="email" name="email" id="enterEmail" class="your-email" placeholder="Enter Your Email" required><br>
+                <textarea name="message" id="enterMessage" rows="10" class="the-textarea" placeholder="Type Message" required></textarea><br>
+                <button type="submit" id="submitMessage" class="send-masg-btn">Send Message</button>
+            </form>
+        </section>
+        <!--======//////End/////=======-->
 
-        <input name="name" type="text" id="enterName" class="your-name" placeholder="Enter Your Name" required><br>
-        <input type="email" name="email" id="enterEmail" class="your-email" placeholder="Enter Your Email" required><br>
-        <textarea name="message" id="enterMessage" rows="10" class="the-textarea" placeholder="Type Message" required></textarea><br>
-        <button type="submit" id="submitMessage" class="send-masg-btn">Send Message</button>
-        
-        
-    </form>
-</section>
-
-
-    <!--=======to return at the top to the home section======-->
-    <a href="" id="home">
-        <div class="end-button"><i class="fa-solid fa-circle-up"></i></div>
-    </a>
+        <!--=======///////to return at the top to the home section///////======-->
+        <a href="" id="home">
+            <div class="end-button"><i class="fa-solid fa-circle-up"></i></div>
+        </a>
     </main>
+    <!--=============///////////End of the Main Section/////////========-->
 
-
+<!--==========/////////Footer/////////================-->
 <footer>
     <p><span>©</span> Copywrite - All Right Reserved - Nkululeko673</p>
 </footer>
 
-    
-<script src="interactive.js"></script>
 
+<!--===========////////////Linking JavaScript Files//////////========-->
+<script src="interactive.js"></script>
 </body>
 </html>

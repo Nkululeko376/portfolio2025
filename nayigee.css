@@ -1,6 +1,4 @@
 
-
-
 body {
     padding: 0px;
     margin: 0px;
@@ -12,7 +10,6 @@ body {
     z-index: 5;
     transition: background-color 0.3s, color 0.3s;
 }
-
 
 body.dark-mode {
     background-color: var(--background-dark);
@@ -26,9 +23,6 @@ body.dark-mode {
     --text-dark: #ffffff;
 }
 
-
-
-
 .myHeader {
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -39,8 +33,6 @@ body.dark-mode {
     left: 0;
     right: 0;
     z-index: 50;
-    
-    
 }
 
 .myLoggo {
@@ -52,28 +44,19 @@ body.dark-mode {
     padding: 0px 2px;
 }
 
-
-
-
-
-
 .myLoggo-span {
     font-size: 1.5rem;
     font-family: Verdana;
     color: cyan;
 }
 
-
-
 .myLoggo:hover {
     color: cyan;
-    
 }
 
 .myLoggo-span:hover {
     color: white;
 }
-
 
 .fa-gear {
     font-size: 1.6rem;
@@ -90,15 +73,12 @@ body.dark-mode {
 .my-mode-change {
     position: absolute;
     right: 78%;
-    top: 98%;
-    
-   
+    top: 98%; 
     background-color: rgba(0, 0, 0, 0.361);
     transition: max-height 0.7s;
     overflow: hidden;
     max-height: 0px;
     border-radius: 5px;
-    
 }
 
 .settings-menu-height-mode {
@@ -136,7 +116,6 @@ body.dark-mode {
     font-size: 1.6rem;
     color: white;
     cursor: pointer;
-    
 }
 
 .navSection a {
@@ -146,7 +125,6 @@ body.dark-mode {
     font-size: 1.3rem;
     font-family: monospace;
     font-weight: 700
-    
 }
 
 .navSection a:hover {
@@ -162,7 +140,6 @@ body.dark-mode {
     left: 0;
     display: none;
     margin-left: 30px;
-    
 }
 
 .theIcons:hover {
@@ -173,21 +150,10 @@ body.dark-mode {
     box-shadow: 2px 2px 5px grey;
 }
 
-
-
 @media (max-width: 700px){
-    body {
-        
-    }
-
-
     .myHeader {
         height: 30px;
-        
     }
-
-
-
 
     .theIcons {
         display: block;
@@ -223,7 +189,6 @@ body.dark-mode {
         visibility: visible;
     }
 
-
    .navSection a {
         margin-right: 8px;
         font-size: 1.0rem;
@@ -239,10 +204,7 @@ body.dark-mode {
         border-bottom: none;
         background-color: rgba(6, 4, 4, 0.381);
         color: cyan;
-        
     }
-    
-
 
     .myLoggo {
         /*
@@ -251,9 +213,6 @@ body.dark-mode {
         margin-left: -200px;
         padding: 0px 2px;
         */
-
         display: none;
     }
-
-   
 }

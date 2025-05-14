@@ -1,20 +1,14 @@
 
 
-
 const menuIcon = document.getElementById("menuIcon");
 const navSection = document.getElementById("navSection");
-
-
 menuIcon.onclick = () => {
     navSection.classList.toggle('active');
     document.querySelector('body').classList.remove('popup-setting');
 }
 
-
 //switching to dark and light mode
-
 const toggleButton = document.getElementById('toggle-mode');
-
 toggleButton.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
 
@@ -25,16 +19,12 @@ toggleButton.addEventListener('click', () => {
     }
 });
 
-
 var settingmenu = document.querySelector('.my-mode-change');
-
 function settingsMenuToggle(){
     settingmenu.classList.toggle("settings-menu-height-mode");
 }
 
-
 //  THIS IS THE FUNCTION CALLED WHEN I CLICK THE BUTTON TO HIDE THE TEXT ON MY ABOUT SECTION.
-
 function clickToHide(button) {
     const toHiddenText = button.previousElementSibling;
 
@@ -46,9 +36,6 @@ function clickToHide(button) {
         button.textContent = "Read More"; // Reset button text
     }
 }
-
-
-
 
 
 // I USED THIS FUNCTION TO HIDE MY SKILLS AND DISPLAY THEM AGAIN
@@ -65,16 +52,12 @@ function toHideSkills(button) {
     }
 }
 
-
-
 //IN THIS SECTION I WILL BE ADDING CODES FOR MY PROJECTS SECTION
-
 const slider = document.querySelector(".slider");
 const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
 
 let index = 0;
-
 nextBtn.addEventListener("click", () => {
     index = (index + 1) % slider.children.length;
     updateSlider();
@@ -90,7 +73,6 @@ function updateSlider() {
     slider.style.transform = `translateX(${offset}%)`;
 }
 
-
 function colorDesign(){
  document.querySelector('body').classList.toggle('popup-setting');
  navSection.classList.remove('active');
@@ -98,7 +80,6 @@ function colorDesign(){
 
 //============Color design Yellow
 document.addEventListener('DOMContentLoaded', () => {
-
     const button = document.querySelector('.design-yellow');
     const target = document.querySelector('.home-data-info');
     const socials = document.querySelector('.my-social-connect');
@@ -120,12 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const inputUrEmail = document.querySelector('.your-email');
     const myTextArea = document.querySelector('.the-textarea');
     const mySubmitBtn = document.querySelector('.send-masg-btn');
-    
-
-
-
-
-
+    ///////====Adding the event listener to the button.
     button.addEventListener('click', () => {
         target.classList.toggle('yellow-shadow');
         socials.classList.toggle('yellow-border');
@@ -147,11 +123,8 @@ document.addEventListener('DOMContentLoaded', () => {
         inputUrEmail.classList.toggle('your-email-yellow');
         myTextArea.classList.toggle('the-textarea-yellow');
         mySubmitBtn.classList.toggle('send-masg-btn-yellow');
-        
-
     });
-  });
-
+});
 
 //============Color design Red
 document.addEventListener('DOMContentLoaded', () => {
@@ -177,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const inputUrEmail = document.querySelector('.your-email');
     const myTextArea = document.querySelector('.the-textarea');
     const mySubmitBtn = document.querySelector('.send-masg-btn');
-///==========
+///==========Adding the event listener to the button.
     button.addEventListener('click', () => {
         target.classList.toggle('red-shadow');
         socials.classList.toggle('red-border');
@@ -200,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
         myTextArea.classList.toggle('the-textarea-red');
         mySubmitBtn.classList.toggle('send-masg-btn-red');
     });
-  });
+});
 
 //============Color design Navy
 document.addEventListener('DOMContentLoaded', () => {
@@ -226,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const inputUrEmail = document.querySelector('.your-email');
     const myTextArea = document.querySelector('.the-textarea');
     const mySubmitBtn = document.querySelector('.send-masg-btn');
-///==========
+///==========Adding event listener
     button.addEventListener('click', () => {
         target.classList.toggle('navy-shadow');
         socials.classList.toggle('navy-border');
@@ -249,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
         myTextArea.classList.toggle('the-textarea-navy');
         mySubmitBtn.classList.toggle('send-masg-btn-navy');
     });
-  });
+});
   
 
 

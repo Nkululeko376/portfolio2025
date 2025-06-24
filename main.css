@@ -2,8 +2,6 @@
 /*The style inside this file is the style of all the elements inside the body*/
 
 .div-test {
-    
-    /*border: 2px solid black;*/
     width: 93%;
     margin: auto;
     text-align: center;
@@ -16,7 +14,6 @@
 }
 
 .div-pic-my-name {
-    /*border: 3px solid yellow;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,12 +22,10 @@
 }
 
 .for-my-home-pic {
-    /*border: 2px solid black;*/
     width: 370px;
     padding: 15px;
     text-align: center;
     margin-right: 15px;
-
 }
 
 .home-picture {
@@ -46,7 +41,6 @@
 }
 
 .home-data-info {
-    
     width: 260px;
     padding: 50px;
     text-align: center;
@@ -71,7 +65,6 @@
 .span22-name {
     font-style: initial;
     color: rgb(0, 0, 0);
-    
 }
 
 .my-social-connect {
@@ -90,7 +83,6 @@
     border: 3px solid cyan;
     background-color: rgb(0, 0, 0);
     border-radius: 50%;
-    
 }
 
 .social-buttons:hover {
@@ -162,11 +154,9 @@
 .download-cv-btn:hover {
     color: white;
     background-color: cyan;
-    
 }
 
 .my-about-mainsection {
-    /*border: 3px solid blue;*/
     padding: 50px;
     text-align: center;
     font-family: monospace;
@@ -174,16 +164,13 @@
 
 /*++++++Contain  the contents of image and the about me data only/ it is not the main congainer*/
 .aboutme-all {
-    /*border: 2px solid red;*/
     padding: 20px;
     display: flex;
     margin-bottom: 20px;
     justify-content: center;
-    
 }
 
 .my-about-me-info {
-    /*border: 2px solid rgb(8, 8, 8);*/
     width: 500px;
     padding: 15px;
     border-radius: 15px;
@@ -199,9 +186,7 @@
 
 /*++++++TO HIDE AND SHOW TEXT ON MY ABOUT SECTION++++++++*/
 .to-hide-text {
-    /*border: 2px solid yellow;*/
     margin-bottom: 10px;
-    /*to hide the text*/
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-in-out;
@@ -209,13 +194,11 @@
 
 /*+++++++++++++++THE STYLES OF MY SKILLS CONTAINER DIV+++++++++++++++++*/
 .myskills-div {
-    /*border: 2px solid green;*/
     text-align: center;
 }
 
 /*+++++++++++++++THE STYLES OF ALL THE ICONS OF SKILLS+++++++++++++++++*/
 .all-icons-container {
-    /*border: 2px solid yellow;*/
     width: 50%;
     margin: auto;
     font-family: monospace;
@@ -243,7 +226,6 @@
 
 /*++++++++++++++THE SMALL DIV CONTAINING THE ICONS+++++++++++++++++*/
 .small-div-icons {
-    /*border: 2px solid red;*/
     width: 92px;
     padding: 5px;
     display: inline-block;
@@ -328,7 +310,6 @@
 
 /*99999999999999999999   THIS STYLE IS FOR THE SECTION THAT CONTAIN ALL INFORMATION ABOUT PROJECTS   999999999999999999999999999*/
 .my-projects-mainsection {
-    /*border: 2px solid blue;*/
     padding: 10px;
     text-align: center;
     font-family: monospace;
@@ -342,7 +323,6 @@
 .projects {
     width: 85%;
     margin: auto;
-    /*border: 5px solid green;*/
     text-align: center;
     padding: 25px;
     margin-top: 50px;
@@ -352,16 +332,13 @@
     position: relative;
     overflow: hidden;
     width: 100%;
-    
     max-width: 550px;
     margin: auto;
 }
 
 .slider {
-    
     display: flex;
     transition: transform 0.5s ease-in-out;
-    /*border: 3px solid red;*/
 }
 
 .slide {
@@ -369,7 +346,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     text-align: center;
-    /*border: 3px solid yellow;*/
     padding: 18px 0px;
     height: 250px;
     display: flex;
@@ -410,7 +386,7 @@ button:hover {
 
 .project-no-title {
     position: absolute;
-    top: -5px;
+    top: -8px;
     padding: 5px;
     font-size: 17px;
     background-color: rgba(0, 255, 255, 0.769);
@@ -421,7 +397,7 @@ button:hover {
 
 .project-no-title2 {
     position: absolute;
-    top: -5px;
+    top: -8px;
     padding: 5px;
     font-size: 17px;
     background-color: rgba(0, 255, 255, 0.769);
@@ -434,8 +410,8 @@ button:hover {
 .to-see-projects {
     width: 120px;
     position: absolute;
-    top: 110px;
-    padding: 15px 3px;
+    top: 76%;
+    padding: 5px 55px;
     background-color: rgba(11, 255, 3, 0.772);
     border-radius: 40px;
 }
@@ -443,13 +419,13 @@ button:hover {
 .to-see-projects a {
     text-decoration: none;
     color: rgb(133, 0, 0);
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .to-see-projects a:hover {
     text-decoration: overline;
-    font-size: 18px;
+    font-size: 17px;
     color: white;
 }
 
@@ -463,8 +439,6 @@ button:hover {
 }
 
 .the-project-1 {
-    /*border: 3px solid blue;*/
-    /*background-color: blue;*/
     background-image: url('projects/project1.jpg');
     background-size: cover;
     background-position: center;
@@ -475,8 +449,6 @@ button:hover {
 }
 
 .the-project-2 {
-    /*border: 3px solid yellow;
-    background-color: yellow;*/
     background-image: url('projects/project2.jpg');
     background-size: cover;
     background-position: center;
@@ -487,8 +459,6 @@ button:hover {
 }
 
 .the-project-3 {
-    /*border: 3px solid red;
-    background-color: red;*/
     background-image: url('projects/project3.jpg');
     background-size: cover;
     background-position: center;
@@ -499,8 +469,6 @@ button:hover {
 }
 
 .the-project-4 {
-    /*border: 3px solid green;
-    background-color: green;*/
     background-image: url('projects/project44.jpg');
     background-size: cover;
     background-position: center;
@@ -511,8 +479,6 @@ button:hover {
 }
 
 .the-project-5 {
-    /*border: 3px solid purple;
-    background-color: purple;*/
     background-image: url('projects/project5.jpg');
     background-size: cover;
     background-position: center;
@@ -523,8 +489,6 @@ button:hover {
 }
 
 .the-project-6 {
-    /*border: 3px solid tomato;
-    background-color: tomato;*/
     background-image: url('projects/project6.jpg');
     background-size: cover;
     background-position: center;
@@ -535,8 +499,6 @@ button:hover {
 }
 
 .the-project-7 {
-    /*border: 3px solid teal;
-    background-color: teal;*/
     background-image: url('projects/project7.jpg');
     background-size: cover;
     background-position: center;
@@ -548,7 +510,6 @@ button:hover {
 
 /*=====================STYLE OF MY FORM SECTION/OF CONTENT INSIDE MY CONTACT ME SECTION=======================*/
 .contact-me-mainsection {
-    /*border: 3px solid blue;*/
     padding: 15px;
     text-align: center;
 }
@@ -558,7 +519,6 @@ button:hover {
 }
 
 .contact-form {
-    /*border: 3px solid green;*/
     max-width: 480px;
     margin: auto;
     padding: 20px;
@@ -598,7 +558,6 @@ button:hover {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
 }
 
 ::placeholder {
@@ -611,7 +570,6 @@ button:hover {
 .setting-gear-mode-change {
     padding: 10px;
     position: relative;
-
 }
 
 .vertical-dots-container {
@@ -804,7 +762,6 @@ button:hover {
     .contact-form-red {
         background: hsl(0, 93%, 57%);
         border: 5px solid red;
-        
     }
 
     .aboutme-heading-span-red {
@@ -957,7 +914,8 @@ button:hover {
       width: 0;
     }
     to {
-      width: 15ch; /* Adjust based on word length (1ch per character) */
+    /* Adjust based on word length (1ch per character) */
+      width: 15ch; 
     }
   }
   
@@ -1019,7 +977,7 @@ button:hover {
     .for-my-home-pic {
         width: 78%;
         padding: 8px;
-       /*border-radius: 2px solid green;*/
+       
         border-radius: 50%;
         text-align: center;
         margin: auto;
@@ -1444,8 +1402,8 @@ button:hover {
     .to-see-projects {
         width: 110px;
         position: absolute;
-        top: 110px;
-        padding: 7px 3px;
+        top: 76%;
+        padding: 5px 55px;
         background-color: rgba(11, 255, 3, 0.772);
         border-radius: 7px 5px;
     }
@@ -1526,11 +1484,11 @@ button:hover {
     }
 
     .projects {
-        width: 85%;
+        width: 98%;
+        height: 240px;
         margin: auto;
-        /*border: 3px solid green;*/
         text-align: center;
-        padding: 8px;
+        padding: 0px;
         margin-top: 20px;
     }
 
@@ -1563,17 +1521,32 @@ button:hover {
         color: white;
     }
 
+    .slider-container {
+        width: 96%;
+        height: 95%;
+    }
+
+
+    .slider {
+        height: 97%;
+    }
+
     .slide {
         min-width: 100%;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         border-radius: 8px;
         text-align: center;
-        /*border: 3px solid yellow;*/
         padding: 15px 0px;
-        height: 150px;
+        height: 230px;
         display: flex;
         justify-content: center;
         align-items: center;
+       
+    }
+
+    .the-project-1, .the-project-2, .the-project-3, .the-project-4, .the-project-5, .the-project-6, .the-project-7 {
+        width: 95%;
+        height: 92%;
     }
 
     .small-div-icons p {
@@ -1846,5 +1819,43 @@ button:hover {
         color: white;
         border: 2px solid blue;
     }
+
+
+    .project-no-title {
+        padding: 3px;
+        font-size: 14px;
+        background-color: rgba(0, 255, 255, 0.769);
+        border-radius: 2px;
+        color: rgb(0, 0, 0);
+        box-shadow: 2px 2px 2px black;
+        
+    }
+
+    .project-no-title2 {
+        padding: 3px;
+        font-size: 14px;
+        background-color: rgba(0, 255, 255, 0.769);
+        border-radius: 3px;
+        color: rgb(0, 0, 0);
+        box-shadow: 2px 2px 2px black;
+        width: 180px;
+    }
+
+    .to-see-projects {
+        width: 120px;
+        position: absolute;
+        top: 85%;
+        padding: 5px 55px;
+        background-color: rgba(11, 255, 3, 0.772);
+        border-radius: 40px;
+    }
+
+    .to-see-projects a {
+        text-decoration: none;
+        color: rgb(133, 0, 0);
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
     /*===================End========================*/
   }
